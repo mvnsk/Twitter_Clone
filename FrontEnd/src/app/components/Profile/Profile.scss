@@ -1,0 +1,32 @@
+@import '../src/assets/scss/var.scss';
+@import '../src/assets/scss/styles.scss';
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.t1-profile-img {
+    width : 150px;
+    height : 150px;
+    border-radius: 80px;
+}
+.t2-profile-img {
+    width : 50px;
+    height : 50px;
+    border-radius: 50px;
+    
+}
+
+.t-file-input{
+    display: none
+}
+
+.t-btn-hover{
+    &:hover{
+        background-color: #dc3545 !important;
+        color: $app-text !important;
+    }
+}
+
+

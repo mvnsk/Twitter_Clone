@@ -1,0 +1,75 @@
+.t-search-container {
+    width: 400px;
+    padding: 20px;
+    border-left: 1px solid $app-border;
+    position: relative;
+}
+.react-autosuggest__suggestions-container--open {
+    margin-right: 22px !important; 
+}
+.react-autosuggest__suggestion {
+    border-bottom: 1px solid $app-border;
+}
+.t-rec-container{
+    height: 300px;
+    overflow: auto;
+}
+.t-search-icon {
+    position: absolute;
+    top: 29px;
+    left: 47px;
+    z-index: 3;
+}
+.react-autosuggest__input{
+    padding-left: 32px !important;
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    background-color: $app-border;
+    border-color: $app-border;
+    font-size: larger;
+    color: $app-text;
+    height: 35px;
+    &:hover {
+        background-color: $app-border; 
+        border-color: $app-border;
+    }
+    &:focus {
+        background-color: $app-border; 
+        color: $app-text;
+    }
+}
+.t-btn-follow{
+    width: 5rem;
+    height: 3rem;
+    border-bottom-color: rgb(29, 161, 242);
+    border-left-color: rgb(29, 161, 242);
+    border-right-color: rgb(29, 161, 242);
+    border-top-color: rgb(29, 161, 242);
+    color: $app-text;
+    padding: 0;
+    margin-left: auto;
+}
+.t-recommendation{
+    background-color: #182634;
+}
+.t-recommendation-title{
+    background-color: #182634;
+    border-bottom-color: $app-border;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: $app-text;
+}
+.t-recommendation-footer{
+    background-color: #182634;
+    border-bottom-color: $app-border;
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    color: $app-text;
+}
+.t-margin-right{
+    margin-right: auto;
+}
+.t-margin-left{
+    margin-right: auto;
+}
